@@ -1,0 +1,62 @@
+body {
+background-image: url('DJI 2 Storm 7.18 (1).JPG');
+background-position: center;
+background-repeat: none;   
+background-size: auto;
+}
+.header {
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+margin-top: 40px;
+}
+.dropbtn {
+background-color: rgb(1, 26, 48);
+color: white;
+padding: 20px;
+font-size: 18px;
+border: 1px;
+border-radius: 12px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+position: relative;
+margin-top: 10px;
+place-content:inherit;
+width:450px
+}
+.dropdown {
+position: relative;
+display: inline;
+margin-inline: 2px;
+color: black;
+width: 100px;
+height: 80px;
+}
+.dropdown-content {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: black;
+margin-top: 3px;
+display: none;
+position: absolute;
+background-color: rgb(151, 153, 153);
+border-radius: 8px;
+min-width: 450px;
+text-align: center;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdown-content a:hover {background-color: teal;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: teal;}
+
+.intro {
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+}
+.intro-container {
+    background-color: grey 20px;
+    border: 2px white;
+    size: 150px;
+}
